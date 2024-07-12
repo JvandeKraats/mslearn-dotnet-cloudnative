@@ -19,7 +19,9 @@
     },
     "forwardPorts": [
         32000,
-        32001
+        32001,
+        32002,
+        32003
     ],
     "postCreateCommand": "cd dotnet-docker && dotnet restore",
     "remoteUser": "vscode",
